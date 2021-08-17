@@ -1,0 +1,96 @@
+header {
+	background: #000000;
+	padding: 20px 0; 
+}
+
+.primeiradiv {
+	position: relative;
+	width: 1200px; 
+	margin: 0 auto;
+
+}
+
+nav { 
+	position: absolute;
+	top: 240px;
+	right: 0; 
+}
+
+nav li {
+	display: inline; 
+	margin: 0 0 0 20px; 
+
+} 
+
+nav a { 
+	text-transform: uppercase;
+	color: #ffffff; 
+	font-weight: bold; 
+	font-size: 20px; 
+	text-decoration: none; 
+
+ } 
+
+ nav a:hover {
+ 	color: rgb(196,255,14); 
+ }
+
+ .planos {
+ 	width: 960px; 
+	margin: 0 auto;
+ }
+
+ .planos ol { 
+ 	display: inline-block;
+ 	text-align: center;
+ 	width: 45%;
+ 	vertical-align: top;
+ 	padding: 50px 0; 
+ 	margin: 0 1.5%;
+ 	box-sizing: border-box; 
+ 	border-color: #000000; 
+ 	border-width:4px;
+ 	border-style: solid;
+ 	margin-top: 100px;
+ 	border-radius: 10px;
+  } 
+
+  .planos ol:hover {
+  	border-color: rgb(196,255,14);
+  } 
+
+  .planos ol:hover h2 {
+  	font-size: 27px;
+  } 
+
+  .planos ol:hover li {
+  	font-size: 27px;
+  } 
+
+  .paragrafo h2 {
+  	font-size: 20px;
+  	font-weight: bold; 
+  	color: rgb(56,56,56); 
+  	margin: 30px 0 0;
+
+  } 
+
+  .paragrafo li {
+  	font-size: 20px; 
+  	margin: 10px 0 0;
+  } 
+
+  footer {
+  	text-align: center; 
+  	background: url("fundofinal.jpg"); 
+  	color: #FFFFFF;
+  	font-weight: bold; 
+  	margin-top: 100px;
+  } 
+
+  footer p { 
+  	text-align: center; 
+  	margin-bottom: 20px;
+  }
+
+  
