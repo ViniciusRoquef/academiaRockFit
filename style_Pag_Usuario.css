@@ -1,0 +1,166 @@
+
+/* Estilização do espaço do aluno */
+
+  /*------------- Conteúdo inicial - Head -------------- */ 
+
+header {
+  background: var(--cor-header);
+  padding: 20px 0; 
+}
+
+.primeiradiv {
+  position: relative;
+  width: 1200px; 
+  margin: 0 auto;
+
+}
+
+nav { 
+  position: absolute;
+  top: 240px;
+  right: 0; 
+}
+
+nav li {
+  display: inline; 
+  margin: 0 0 0 20px; 
+
+} 
+
+nav a { 
+  text-transform: uppercase;
+  color: #ffffff; 
+  font-weight: bold; 
+  font-size: 20px; 
+  text-decoration: none; 
+
+ } 
+
+ nav a:hover {
+  color: rgb(196,255,14); 
+ } 
+
+  /*------------- Conteúdo central (Formulário de Login)-------------- */ 
+  :root {
+    --cor-header: #000000;
+    --cor-blocoCentral: linear-gradient(120deg, #c4ff0e , #0bbc6e);
+    --cor-botaoSubmit: linear-gradient(120deg, #c4ff0e , #0bbc6e, #c4ff0e);
+    --cor-tituloSubmit: #ffffff; 
+    --login-container:  #ffffff;
+    --cor-titulo: #303030; 
+    --largura-Width:  100%;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+  .login { 
+    height: 100vh;
+    background: var(--cor-blocoCentral); 
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   }
+
+   .login_container {
+    min-height: 400px;
+    width: 300px;
+    background-color: var(--login-container);
+    box-sizing: border-box;
+    padding: 32px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   } 
+
+   .login_title {
+    margin-bottom: 32px;
+    color: var(--cor-titulo);
+    font-size: 25px;
+    font-weight: bold;
+   } 
+
+   .login_form {
+    width: var(--largura-Width);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .login_input {
+    height: 48px;
+    width: var(--largura-Width);
+    box-sizing: border-box;
+    padding-left: 8px;
+    border:  unset;
+    outline: none;
+   } 
+
+   .login_input-border {
+    height: 2px;
+    width: var(--largura-Width);
+    margin-bottom: 16px;
+    background-color: #cfcfcf; 
+    transition: .3s ease-in-out;
+   } 
+
+   .login_input-border:after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0;
+    margin-bottom: 16px;
+    background: var(--cor-blocoCentral); 
+    transition: .3s ease-in-out;
+   } 
+
+   .login_input:focus + .login_input-border:after {
+    width: 100%;
+   }
+
+   .login_submit {
+    height: 48px;
+    width: 240px;
+    outline: none;
+    background: var(--cor-botaoSubmit);
+    background-size: 200%; 
+    margin-bottom: 32px;
+    color: var(--cor-tituloSubmit);
+    font-size: 16px;
+    font-weight: bold;
+    border: unset;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+   } 
+
+   .login_submit:hover {
+    background-position: right;
+   }
+  
+  .login_reset {
+    font-size: 12px;
+    color: #929292;
+    text-decoration: none;
+  } 
+
+  /*------------- Conteúdo Final (Rodapé)-------------- */ 
+  footer {
+    text-align: center; 
+    background: url("fundofinal.jpg"); 
+    color: #f5f5f5;
+    font-weight: bold; 
+    margin-top: 0px;
+  } 
+
+  footer p { 
+    text-align: center; 
+    margin-bottom: 15px;
+    font-size: 15px;
+  } 
+
